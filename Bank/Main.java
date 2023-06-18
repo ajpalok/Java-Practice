@@ -12,6 +12,6 @@ public class Main {
 
         Account B = new Account();
         A.transferMoneyTo(B,500);
-        System.out.println("After Transferring money from A to B,\nBalance of A is: " + A.balance + "\nBalance of B is: " + B.balance);
+        System.out.println("After Transferring money from A to B,\n\tBalance of A is: " + A.balance + "\n\tBalance of B is: " + B.balance);
     }
 }
