@@ -1,4 +1,4 @@
-# Triangle And Point In Triangle
+# Rectangle And Point In Rectangle
 
 There is a point class having two instance variables x and y.
 
