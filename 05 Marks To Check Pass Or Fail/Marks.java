@@ -1,0 +1,19 @@
+class Marks{
+    String id;
+    double quizMark, midMark, finalMark;
+
+    Marks(String id, double quizMark, double midMark, double finalMark){
+        this.id = id;
+        this.quizMark = quizMark;
+        this.midMark = midMark;
+        this.finalMark = finalMark;
+    }
+
+    void passedOrNot(){;
+        if(this.quizMark + this.midMark + this.finalMark >= 55){
+            System.out.println("Passed");
+        }else{
+            System.out.println("Failed");
+        }
+    }
+}
