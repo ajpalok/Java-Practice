@@ -10,7 +10,7 @@ class Marks{
     }
 
     void passedOrNot(){;
-        if(this.quizMark + this.midMark + this.finalMark >= 55){
+        if(quizMark + midMark + finalMark >= 55){
             System.out.println("Passed");
         }else{
             System.out.println("Failed");

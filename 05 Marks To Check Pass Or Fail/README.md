@@ -11,6 +11,6 @@ b) Write a parameterized constructor for Marks class which initializes all the i
 
 c) Write a method passedOrNot which calculates the total mark of a student by adding quiz, mid and final marks.
 
-d) Then, if the student’s total mark is greater or equal to 55, print “passed” in the console.Otherwise print “failed” in the console. Method passedOrNot should not have any parameters.
+d) Then, if the student’s total mark is greater or equal to 55, print “passed” in the console. Otherwise print “failed” in the console. Method passedOrNot should not have any parameters.
 
 e) Create a class called Main and write the main method inside the class. Create Marks objects in the main method with appropriate parameters. Call the passedOrNot method using the objects you created.
