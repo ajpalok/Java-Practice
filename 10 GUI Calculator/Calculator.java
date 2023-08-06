@@ -2,7 +2,7 @@ import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
  
-class GUI implements ActionListener{
+class Calculator implements ActionListener{
     JFrame jFrame = new JFrame();
     JTextField num1 = new JTextField();
     JTextField num2 = new JTextField();
@@ -13,7 +13,7 @@ class GUI implements ActionListener{
     JButton sub = new JButton();
  
  
-    public GUI(){
+    public Calculator(){
         num1.setBounds(150,100,100,50);
         num2.setBounds(300,100,100,50);
         add.setBounds(175,300,50,50);
@@ -48,12 +48,8 @@ class GUI implements ActionListener{
             output.setText(Integer.toString(a));
         }
     }
-}
- 
- 
- 
-public class Main {
+
     public static void main(String args[]) {
-        new GUI();
+        new Calculator();
     }
 }
